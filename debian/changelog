@@ -1,0 +1,5 @@
+worker-chroot-config (0.20160716.0) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Mohammed Sameer <msameer@foolab.org>  Sat, 16 Jul 2016 14:59:08 +0300

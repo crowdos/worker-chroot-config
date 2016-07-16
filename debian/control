@@ -1,0 +1,13 @@
+Source: worker-chroot-config
+Section: admin
+Priority: optional
+Maintainer: Mohammed Sameer <msameer@foolab.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+Package: worker-chroot-config
+Architecture: all
+Depends: ${misc:Depends},
+	 debconf
+Description: configuration for builders
+ This package contains configuration for the builders.
