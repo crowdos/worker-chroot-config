@@ -19,6 +19,7 @@ case "$1" in
     configure)
 	rm -rf /var/lib/man-db/auto-update
 	/usr/bin/debconf-set-selections < /usr/share/worker-chroot-config/debconf
+	mkdir /tmp && chmod 7777 /tmp
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
