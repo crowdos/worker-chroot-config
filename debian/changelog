@@ -1,3 +1,10 @@
+worker-chroot-config (0.20160717.0) unstable; urgency=medium
+
+  * [4c357cb] create needed /tmp directory
+  * [bcc021f] Add gbp configuration
+
+ -- Mohammed Sameer <msameer@debian.org>  Sun, 17 Jul 2016 18:49:00 +0300
+
 worker-chroot-config (0.20160716.0) unstable; urgency=medium
 
   * Initial release.
