@@ -1,3 +1,10 @@
+worker-chroot-config (0.20160718.0) unstable; urgency=medium
+
+  * [dbc3025] use mkdir -p to make /tmp in order to silence any warning if it exists
+  * [f26b230] create a dummy run/systemd/system directory
+
+ -- Mohammed Sameer <msameer@debian.org>  Mon, 18 Jul 2016 16:56:40 +0300
+
 worker-chroot-config (0.20160717.0) unstable; urgency=medium
 
   * [4c357cb] create needed /tmp directory
